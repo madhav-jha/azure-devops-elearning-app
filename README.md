@@ -5,7 +5,37 @@
 . This project demonstrates an end-to-end CI/CD pipeline using Azure DevOps to build and deploy a full-stack web application on Azure App Service.
 . The application includes a React (Vite) frontend and a Node.js backend, automated through a YAML-based pipeline.
 
-  Applicaton Interface Pic
+=> Tech Stack use :
+ . Frontend: React (Vite) + Tailwind CSS
+ . Backend: Node.js (Express)
+ . CI/CD: Azure DevOps Pipelines
+ . Cloud: Microsoft Azure (App Service - Linux)
+ . Version Control: Git + GitHub
+ 
+ => Key Features :
+  . Automated build and deployment pipeline
+  . YAML-based pipeline configuration
+  . Azure App Service deployment
+  . End-to-end DevOps workflow
+  . Debugging real-world pipeline errors
+
+ => CI/CD Pipeline Workflow :
+  . Code pushed to repository
+  . Azure DevOps pipeline triggered
+  . Dependencies installed using npm
+  . Application build executed
+  . Deployment to Azure App Service
+
+  => Challenges Faced & Solutions :
+    ❌ Pipeline failed due to invalid vmImage
+    ✔ Fixed by using ubuntu-latest
+    ❌ Agent pool error
+    ✔ Corrected YAML structure and pool configuration
+    ❌ Deployment & authentication issues
+    ✔ Resolved using proper Azure configuration
+
+  => Applicaton Screenshots :
+  
   <img width="1792" height="1120" alt="Screenshot 2026-04-12 at 9 10 51 AM" src="https://github.com/user-attachments/assets/d5aa76c8-03d4-4c65-9f70-c09ef0277fce" />
   <img width="1792" height="1120" alt="Screenshot 2026-04-11 at 8 31 21 PM" src="https://github.com/user-attachments/assets/6668c03c-4016-45b9-93ad-5dea74441d79" />
   <img width="1792" height="1120" alt="Screenshot 2026-04-11 at 8 44 26 PM" src="https://github.com/user-attachments/assets/400d90b5-d7e1-456e-a54b-8ba204ebecd3" />
@@ -23,7 +53,18 @@
   <img width="1792" height="1120" alt="Screenshot 2026-04-12 at 9 08 42 AM" src="https://github.com/user-attachments/assets/2e92b68c-6629-438c-b073-d9e4259a3d22" />
   <img width="1792" height="1120" alt="Screenshot 2026-04-12 at 9 09 30 AM" src="https://github.com/user-attachments/assets/869a36f0-a08f-450e-8767-67a4bd41f0e2" />
 
+=> Learnings: 
+    . Azure DevOps pipeline creation
+    . YAML configuration and debugging
+    . Azure resource management
+    . Real-world troubleshooting experience
+    . CI/CD best practices
+    
+=> Conclusion: 
+This project showcases practical DevOps skills including CI/CD automation, cloud deployment, and debugging production-level issues.
 
+Author:
+Madhav Jha
 
   
 
